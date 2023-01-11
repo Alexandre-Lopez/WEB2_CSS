@@ -1,0 +1,395 @@
+body {
+	width: 80%;
+	margin: auto;
+}
+
+/* Estilo para la cabecera */
+#cabecera {
+	background-color: rgb(14, 3, 39);
+	color: rgb(206, 138, 36);
+	text-align: center;
+	padding: 20px;
+}
+
+/* Estilo para el encabezado h1 en la cabecera */
+#cabecera h1 {
+	font-size: 32px;
+	margin: 0;
+}
+
+/* Estilo para la navegación */
+#navegacion {
+	background-color: #f2f2f2;
+	border: 10px solid rgb(110, 82, 82);
+	text-align: left;
+	text-indent: 60px;
+	padding: 5px;
+}
+
+/* Estilo para los enlaces de la navegación */
+#navegacion a {
+	color: rgb(25, 107, 59);
+	font-weight: bold;
+  font-size: 25px;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+/* Estilo para los enlaces de la navegación al pasar el mouse por encima */
+#navegacion a:hover {
+	background-color: rgb(97, 170, 36);
+	color: #f2f2f2;
+	border-radius: 15px;
+}
+
+/* Estilo para el contenido */
+#contenido {
+	width: 80%;
+	margin: auto;
+}
+
+/* Estilo para los títulos h2 */
+h2 {
+	color: rgb(255, 255, 255);
+	margin-top: auto;
+	margin-bottom: 20px;
+  font-size: 30px;
+}
+
+/* Estilo para los párrafos */
+p {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	font-family: 'Arial Narrow';
+}
+
+/* Estilo para los enlaces */
+a {
+	color: rgb(44, 66, 190);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#libros {
+	text-align: center;
+	font-size: 35px;
+	color: rgb(16, 13, 150);
+	font-family: 'Lucida Sans';
+}
+
+ul h3 {
+  color: rgb(16, 13, 150);
+  font-size: 30px;
+}
+
+#peliculas {
+	text-align: center;
+	font-size: 35px;
+	color: rgb(5, 77, 11);
+	font-family: 'Trebuchet MS';
+}
+ol h3 {
+  color: rgb(5, 77, 11);
+}
+
+#musica {
+	text-align: center;
+	font-size: 35px;
+	color: rgb(102, 119, 8);
+	font-family: Georgia;
+}
+
+/* Estilo para las imágenes */
+img {
+	width: 49%;
+	height: auto;
+	border: 6px solid #333;
+	border-radius: 100px;
+	margin-bottom: 20px;
+}
+
+
+
+#imagenes4 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#imagenes4 :hover {
+	border-color: aqua;
+	border-radius: 10px;
+}
+
+/* Estilo para los títulos h3 */
+h3 {
+	color: #333;
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+/* Estilo para los elementos del formulario */
+form label,
+form input,
+form textarea {
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/* Estilo para el formulario de contacto */
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form input[type="submit"] {
+	width: 90%;
+	border: 3px solid #ccc;
+	border-radius: 3px;
+	font-size: 16px;
+	padding: 8px;
+}
+
+/* Estilo para el botón de envío del formulario */
+form input[type="submit"] {
+	width: 50%;
+	background-color: rgb(153, 96, 96);
+	color: #fff;
+	border-radius: 3px;
+	font-size: 16px;
+	padding: 8px;
+	cursor: pointer;
+	transition: transform 0.2s ease;
+}
+/* Estilo para el botón de envío del formulario al pasar el cursor por encima */
+input[type="submit"]:hover {
+	width: 93%;
+
+}
+
+/* Estilo para el pie de página */
+#footer {
+	width: 100%;
+	height: 27px;
+	background-color: rgb(33, 172, 75);
+	color: #fff;
+	text-align: center;
+}
+
+li img {
+	width: 100px;
+	height: 150px;
+	cursor: pointer;
+}
+
+li h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 21px;
+}
+
+li img:hover {
+	opacity: 0.5;
+	width: 120%;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	border: 3px solid rgb(16, 13, 150);
+	background: rgb(77,136,175);
+    background: linear-gradient(90deg, rgb(148, 200, 235) 18%, rgb(4, 4, 58) 100%, rgba(0,212,255,1) 100%);
+}
+
+ol {
+	display: flex;
+	flex-wrap: wrap;
+	border: 3px solid rgb(5, 77, 11);
+	background: rgb(156,209,154);
+    background: linear-gradient(53deg, rgba(156,209,154,1) 18%, rgba(0,68,0,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+ol li {
+	margin-left: 0px;
+}
+
+dl {
+	display: flex;
+	flex-wrap: wrap;
+	border: 3px solid rgb(102, 119, 8);
+}
+
+dl h3 {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+dt {
+	width: 30%;
+	text-align: center;
+}
+
+dt img {
+	width: 100px;
+	height: 150px;
+	cursor: pointer;
+}
+
+dd {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 21px;
+}
+
+dt img:hover {
+	opacity: 0.5;
+}
+
+
+#pop {
+	margin-top: 10px;
+	position: absolute;
+	width: 62%;
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(101, 42, 179);
+	background-color: rgb(255, 255, 255);
+}
+
+#pop1 {
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+dt h3 {
+	color: rgb(101, 42, 179);
+	font-size: 30px;
+	background-color: rgb(255, 255, 255);
+}
+
+#dance {
+	width: 97%;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 20px;
+	color: rgb(156, 8, 8);
+	background-color: rgb(255, 255, 255);
+}
+
+#dance1 {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+#dance1 h3 {
+	color: rgb(156, 8, 8);
+	background-color: #ffffff;
+	font-size: 30px;
+}
+
+#pop1 img {
+	border-color: rgb(101, 42, 179);
+
+}
+
+#dance1 img {
+	border: 5px solid rgb(156, 8, 8);
+}
+
+#rock {
+	width: 97%;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 20px;
+	color: rgb(8, 156, 45);
+	background-color: rgb(255, 255, 255);
+}
+
+#rock1 {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+#rock1 h3 {
+	color: rgb(8, 156, 45);
+	background-color: #ffffff;
+	font-size: 30px;
+}
+
+#rock1 img {
+	border-color: rgb(8, 156, 45);
+}
+
+
+#contacto {
+	width: 40%;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+label {
+	font-weight: bold;
+}
+
+#fondo {
+	background-image: url('imagenes/fondo.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#tabla table {
+  border-collapse: collapse;
+}
+
+#tabla th {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 8px solid rgb(238, 232, 232);
+  border-style: double;
+  text-align: left;
+}
+
+#tabla td {
+  color: rgb(128, 174, 212);
+  padding: 10px;
+  border: 10px solid rgb(233, 228, 159);
+  text-align: left;
+}
+
+#nombre {
+  background-color: rgb(255, 221, 177);
+  border-color: rgb(255, 0, 191);
+  border-radius: 40px;
+}
+#nombres{
+  font-family: 'Arial Narrow Bold';
+  color: rgb(255, 0, 191);
+}
+
+#email {
+  background-color: rgb(240, 212, 212);
+  border-style: double;
+  border-color: rgb(214, 148, 148);
+}
+
+#emails {
+  font-family: 'Franklin Gothic Medium';
+}
+#mensaje {
+  background-color: rgb(222, 210, 233);
+  border-style: inherit;
+  border-color: rgb(178, 151, 204);
+}
+
+#mensajes {
+  font-family: 'Helvetica Neue';
+  color: rgb(101, 175, 180);
+}
+
